@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: var(
+    --font__main,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Helvetica Neue,
+    sans-serif
+  );
+  width: 100vw;
+  height: 100vh;
+}
+.box-1 {
+  width: 100%;
+  height: 33rem;
+  background-color: #fffaf7;
+  background-image: url(https://preview.redq.io/turbowp/wp-content/uploads/2018/09/car-header.png);
+  background-repeat: no-repeat;
+  background-size: 100% 130%;
+  background-position: top -5rem right -2.3rem;
+}
+
+.head-main-part {
+  margin-left: 7rem;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 0rem;
+  gap: 2rem;
+}
+
+.logo {
+  margin-top: 2rem;
+  margin-left: 13rem;
+}
+.login-tab {
+  font-weight: 500;
+  position: absolute;
+  right: 15rem;
+  top: 2rem;
+}
+
+.cart {
+  background-color: orange;
+  padding-left: 0.5rem;
+  padding-right: 0.51rem;
+  border-radius: 5px;
+}
+
+.top-nav {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-main-box {
+  margin-left: 15rem;
+  margin-top: 15rem;
+}
+
+.details {
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
